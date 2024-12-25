@@ -33,7 +33,7 @@
 	"esmodules": [
 		"scripts/cpr-source-links.js"
 	],
-	"download" : "",
-	"manifest" : "",
+	"download" : "https://github.com/aponomarev1408/cpr-source-links/releases/download/1.0.0/cpr-source-links-1-0-0.zip",
+	"manifest" : "https://github.com/aponomarev1408/cpr-source-links/releases/download/1.0.0/module.json",
 	"license": "GPL v3"
 }
