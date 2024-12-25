@@ -1,0 +1,39 @@
+{
+	"id": "cpr-source-links",
+	"title": "Cyberpunk RED Source Links",
+	"description": "A module that adds links to source pdf files.",
+	"authors": [
+		{
+			"name": "Andrey1408",
+			"url": "https://github.com/aponomarev1408"
+		}
+	],
+	"version": "1.0.0",
+	"compatibility": {
+	  "verified": "11"
+	},
+	"relationships": {
+		"systems": [{
+			"id": "cyberpunk-red-core",
+			"type": "system",
+			"compatibility": {
+			  "verified": "v0.88.2"
+			}
+		}],
+		"requires" : [
+			{
+				"id" : "pdf-pager",
+				"type" : "module",
+				"compatibility": {
+					"verified": "1.5.4"
+				}
+			}
+		]
+	},
+	"esmodules": [
+		"scripts/cpr-source-links.js"
+	],
+	"download" : "",
+	"manifest" : "",
+	"license": "GPL v3"
+}
